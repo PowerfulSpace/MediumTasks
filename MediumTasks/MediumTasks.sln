@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewTest", "NewTest", "{256B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.1 Regular_ExtractAllWordsFromASentence", "ExtractAllWordsFromASentence\0.1 Regular_ExtractAllWordsFromASentence.csproj", "{79CD9161-EB48-41CE-B588-E98926BDA6C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.2 Regular_ExtractOnlyDigitsFromaNumber", "Regular_ExtractOnlyDigitsFromaNumber\0.2 Regular_ExtractOnlyDigitsFromaNumber.csproj", "{22662D8F-C516-4038-8AED-662CCCD8532D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.2 Regular_ExtractOnlyDigitsFromaNumber", "Regular_ExtractOnlyDigitsFromaNumber\0.2 Regular_ExtractOnlyDigitsFromaNumber.csproj", "{22662D8F-C516-4038-8AED-662CCCD8532D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.3 Regular_FindingAndChangingTheColorOfRows", "Regular_FindingAndChangingTheColorOfRows\0.3 Regular_FindingAndChangingTheColorOfRows.csproj", "{67D811E1-7BDD-42DF-A721-2EF53667DE28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{22662D8F-C516-4038-8AED-662CCCD8532D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22662D8F-C516-4038-8AED-662CCCD8532D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22662D8F-C516-4038-8AED-662CCCD8532D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D811E1-7BDD-42DF-A721-2EF53667DE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D811E1-7BDD-42DF-A721-2EF53667DE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D811E1-7BDD-42DF-A721-2EF53667DE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D811E1-7BDD-42DF-A721-2EF53667DE28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
