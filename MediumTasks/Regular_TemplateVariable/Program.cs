@@ -14,6 +14,22 @@ Console.WriteLine(input);
 Console.WriteLine(result);
 
 
+//string input = "У лукоморья дуб зелёный;\r\n" +
+//    "Златая цепь на дубе том:\r\n" +
+//    "И днём и ночью кот учёный\r\n" +
+//    "Всё ходит по цепи кругом;";
+
+
+//var result = Regex.Replace(input,
+//    @"У (?<var1>\w+) (?<var2>\w+) зелёный",
+//    "У ${var2} ${var1} зелёный");
+
+
+//Console.WriteLine(input);
+//Console.WriteLine();
+//Console.WriteLine(result);
+
+
 Console.ReadLine();
 
 
