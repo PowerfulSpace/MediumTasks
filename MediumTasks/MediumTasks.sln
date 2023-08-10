@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.2 Regular_ExtractOnlyDigi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.3 Regular_FindingAndChangingTheColorOfRows", "Regular_FindingAndChangingTheColorOfRows\0.3 Regular_FindingAndChangingTheColorOfRows.csproj", "{67D811E1-7BDD-42DF-A721-2EF53667DE28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_EmailValidation", "Regular_EmailValidation\Regular_EmailValidation.csproj", "{3D4A91BC-0B3A-49CA-8629-6640957F8BCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.4 Regular_EmailValidation", "Regular_EmailValidation\0.4 Regular_EmailValidation.csproj", "{3D4A91BC-0B3A-49CA-8629-6640957F8BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.5 Regular_TemplateVariable", "Regular_TemplateVariable\0.5 Regular_TemplateVariable.csproj", "{4F21BC1E-E787-4571-A07C-5201D57B67E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{3D4A91BC-0B3A-49CA-8629-6640957F8BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4A91BC-0B3A-49CA-8629-6640957F8BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4A91BC-0B3A-49CA-8629-6640957F8BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F21BC1E-E787-4571-A07C-5201D57B67E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F21BC1E-E787-4571-A07C-5201D57B67E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F21BC1E-E787-4571-A07C-5201D57B67E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F21BC1E-E787-4571-A07C-5201D57B67E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
