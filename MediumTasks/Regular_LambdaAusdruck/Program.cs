@@ -1,7 +1,7 @@
 ﻿
 using System.Text.RegularExpressions;
 
-
+//Используется функция изменения совпадений
 
 string input = "5 is less than 10";
 
