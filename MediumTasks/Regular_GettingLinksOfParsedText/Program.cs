@@ -16,7 +16,7 @@ Console.WriteLine(input);
 Console.WriteLine();
 
 
-for (Match m = regex.Match(input); m.Success ; m = m.NextMatch())
+for (Match m = regex.Match(input); m.Success; m = m.NextMatch())
 {
     Console.WriteLine("Ссылка: {0:-25} на: {1:-4} позиции с именем {2}", m.Groups["link"], m.Groups["link"].Index, m.Groups["text"]);
 }
