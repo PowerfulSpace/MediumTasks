@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.6 Regular_LambdaAusdruck"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.7 Regular_Coincidences", "Regular_Coincidences\0.7 Regular_Coincidences.csproj", "{05E1DE34-BA4A-4A4C-830B-8D5A4FFA9522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.8 Regular_GettingLinksOfParsedText", "Regular_GettingLinksOfParsedText\0.8 Regular_GettingLinksOfParsedText.csproj", "{4F06EC13-4452-4226-9890-DAB28B1BC28B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.8 Regular_GettingLinksOfParsedText", "Regular_GettingLinksOfParsedText\0.8 Regular_GettingLinksOfParsedText.csproj", "{4F06EC13-4452-4226-9890-DAB28B1BC28B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.9 Regular_group", "Regular_group\0.9 Regular_group.csproj", "{E7E91A96-696F-4C9C-9A8C-00A09C3C7341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{4F06EC13-4452-4226-9890-DAB28B1BC28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F06EC13-4452-4226-9890-DAB28B1BC28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F06EC13-4452-4226-9890-DAB28B1BC28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E91A96-696F-4C9C-9A8C-00A09C3C7341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E91A96-696F-4C9C-9A8C-00A09C3C7341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E91A96-696F-4C9C-9A8C-00A09C3C7341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E91A96-696F-4C9C-9A8C-00A09C3C7341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
