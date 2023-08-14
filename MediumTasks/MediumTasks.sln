@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.2 Regular_RemovingACurren
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.3 Regular_lazyLodaing", "Regular_lazyLodaing\1.3 Regular_lazyLodaing.csproj", "{8CBBDCC5-C84A-4997-9437-AD2E21B90507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4 Regular_ValidNumber", "Regular_ValidNumber\1.4 Regular_ValidNumber.csproj", "{7A039F23-D8D5-47E3-8AB3-F92B2783E3F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.4 Regular_ValidNumber", "Regular_ValidNumber\1.4 Regular_ValidNumber.csproj", "{7A039F23-D8D5-47E3-8AB3-F92B2783E3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.5 Regular_SearchForTwoIdenticalWords", "Regular_SearchForTwoIdenticalWords\1.5 Regular_SearchForTwoIdenticalWords.csproj", "{B6C8E403-D056-48D7-ABB6-8AD0B122F442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{7A039F23-D8D5-47E3-8AB3-F92B2783E3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A039F23-D8D5-47E3-8AB3-F92B2783E3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A039F23-D8D5-47E3-8AB3-F92B2783E3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C8E403-D056-48D7-ABB6-8AD0B122F442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C8E403-D056-48D7-ABB6-8AD0B122F442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C8E403-D056-48D7-ABB6-8AD0B122F442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C8E403-D056-48D7-ABB6-8AD0B122F442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
