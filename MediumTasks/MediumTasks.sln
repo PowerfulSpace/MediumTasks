@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.4 Regular_ValidNumber", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.5 Regular_SearchForTwoIdenticalWords", "Regular_SearchForTwoIdenticalWords\1.5 Regular_SearchForTwoIdenticalWords.csproj", "{B6C8E403-D056-48D7-ABB6-8AD0B122F442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_ExecudedGroup", "Regular_ExecudedGroup\Regular_ExecudedGroup.csproj", "{3BECCB43-28B5-4413-9F88-BEDDE969AF4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.6 Regular_ExecudedGroup", "Regular_ExecudedGroup\1.6 Regular_ExecudedGroup.csproj", "{3BECCB43-28B5-4413-9F88-BEDDE969AF4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_FindingAChoice", "Regular_FindingAChoice\Regular_FindingAChoice.csproj", "{EA11F37D-BD8B-4712-B231-F04B99821979}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{3BECCB43-28B5-4413-9F88-BEDDE969AF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BECCB43-28B5-4413-9F88-BEDDE969AF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BECCB43-28B5-4413-9F88-BEDDE969AF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA11F37D-BD8B-4712-B231-F04B99821979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA11F37D-BD8B-4712-B231-F04B99821979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA11F37D-BD8B-4712-B231-F04B99821979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA11F37D-BD8B-4712-B231-F04B99821979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
