@@ -1,9 +1,9 @@
 ﻿
 using System.Text.RegularExpressions;
 
-string pattern = @"\b(?!un)\w+\b";
-string input = "unite one unethical ethics use untie ultimate";
-foreach (Match match in Regex.Matches(input, pattern, RegexOptions.IgnoreCase))
+string pattern = @"\b\w+\b(?!\p{P})";
+string input = "Disconnected, disjointed thoughts in a sentence fragment.";
+foreach (Match match in Regex.Matches(input, pattern))
     Console.WriteLine(match.Value);
 
 Console.ReadLine();
