@@ -1,5 +1,4 @@
-﻿
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 string pattern = @"\b\w+(?=\sis\b)";
 string[] inputs = { "The dog is a Malamute.",
@@ -16,8 +15,8 @@ foreach (string input in inputs)
         Console.WriteLine("'{0}' does not match the pattern.", input);
 }
 
-
 Console.ReadLine();
+
 
 
 //Делает одну общую группировку благодаря :?
