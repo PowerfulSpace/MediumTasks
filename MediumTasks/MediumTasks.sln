@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.8 Regular_FindingAWordWit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.9 Regular_SearchForTwoIdenticalWords_2", "Regular_SearchForTwoIdenticalWords_2\1.9 Regular_SearchForTwoIdenticalWords_2.csproj", "{425B478F-4671-475D-94DB-509A9E1BD920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.0 Regular_SelectionInNotOnTheWholePattern", "Regular_SelectionInNotOnTheWholePattern\2.0 Regular_SelectionInNotOnTheWholePattern.csproj", "{7F9FC97D-F8CF-4EDE-9DE4-AAB70C8BA99C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.0 Regular_SelectionInNotOnTheWholePattern", "Regular_SelectionInNotOnTheWholePattern\2.0 Regular_SelectionInNotOnTheWholePattern.csproj", "{7F9FC97D-F8CF-4EDE-9DE4-AAB70C8BA99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1 Regular_MatchesThatDoNotStartWithACondition", "Regular_MatchesThatDoNotStartWithACondition\2.1 Regular_MatchesThatDoNotStartWithACondition.csproj", "{BD4C431D-5850-47B7-8B20-DEC86A5B3765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1 Regular_MatchesThatDoNotStartWithACondition", "Regular_MatchesThatDoNotStartWithACondition\2.1 Regular_MatchesThatDoNotStartWithACondition.csproj", "{BD4C431D-5850-47B7-8B20-DEC86A5B3765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_GroupingStructures", "Regular_GroupingStructures\Regular_GroupingStructures.csproj", "{C48A2A70-FF39-4AD2-8F92-E06A9BA941B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +145,10 @@ Global
 		{BD4C431D-5850-47B7-8B20-DEC86A5B3765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD4C431D-5850-47B7-8B20-DEC86A5B3765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD4C431D-5850-47B7-8B20-DEC86A5B3765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48A2A70-FF39-4AD2-8F92-E06A9BA941B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48A2A70-FF39-4AD2-8F92-E06A9BA941B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48A2A70-FF39-4AD2-8F92-E06A9BA941B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48A2A70-FF39-4AD2-8F92-E06A9BA941B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
