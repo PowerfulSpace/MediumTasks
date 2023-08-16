@@ -1,8 +1,9 @@
 ﻿
 using System.Text.RegularExpressions;
 
-string pattern = @"\b\w+\b(?!\p{P})";
-string input = "Disconnected, disjointed thoughts in a sentence fragment.";
+string input = "2010 1999 1861 2140 2009";
+string pattern = @"(?<=\b20)\d{2}\b";
+
 foreach (Match match in Regex.Matches(input, pattern))
     Console.WriteLine(match.Value);
 
