@@ -28,6 +28,13 @@ foreach (Match match in Regex.Matches(input, pattern,
                                       RegexOptions.IgnoreCase |
                                       RegexOptions.Multiline))
     Console.WriteLine("'{0}' found at position {1}.", match.Value, match.Index);
+Console.WriteLine();
+
+//Поиск паттерна сайта
+string pattern2 = @"\b(\w{3,}?\.){2}?\w{3,}?\b";
+string input2 = "www.microsoft.com msdn.microsoft.com mywebsite mycompany.com";
+foreach (Match match in Regex.Matches(input2, pattern2))
+    Console.WriteLine("'{0}' found at position {1}.", match.Value, match.Index);
 
 
 Console.ReadLine();
