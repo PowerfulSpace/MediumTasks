@@ -1,13 +1,11 @@
 ﻿
 using System.Text.RegularExpressions;
 
-string pattern = @"\b[A-Z](\w*?\s*?){1,10}[.!?]";
-string input = "Hi. I am writing a short note. Its purpose is " +
-                      "to test a regular expression that attempts to find " +
-                      "sentences with ten or fewer words. Most sentences " +
-                      "in this note are short.";
-foreach (Match match in Regex.Matches(input, pattern))
-    Console.WriteLine("'{0}' found at position {1}.", match.Value, match.Index);
+string greedyPattern = @"\b.*([0-9]{4})\b";
+string input1 = "1112223333 3992991999";
+foreach (Match match in Regex.Matches(input1, greedyPattern))
+    Console.WriteLine("Account ending in ******{0}.", match.Groups[1].Value);
+
 
 
 Console.ReadLine();
