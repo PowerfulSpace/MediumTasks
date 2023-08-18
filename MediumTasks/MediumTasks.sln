@@ -51,7 +51,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1 Regular_MatchesThatDoNo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2 Regular_GroupingStructures", "Regular_GroupingStructures\2.2 Regular_GroupingStructures.csproj", "{C48A2A70-FF39-4AD2-8F92-E06A9BA941B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_CaptureGropu_Base", "Regular_CaptureGropu_Base\Regular_CaptureGropu_Base.csproj", "{3BAA4142-4C6A-467C-8D33-1FC9F2B26A96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 Regular_CaptureGropu_Base", "Regular_CaptureGropu_Base\2.3 Regular_CaptureGropu_Base.csproj", "{3BAA4142-4C6A-467C-8D33-1FC9F2B26A96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
