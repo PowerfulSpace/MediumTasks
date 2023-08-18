@@ -55,7 +55,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 Regular_CaptureGropu_Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4 Regular_ExpressionMatching", "Regular_ExpressionMatching\2.4 Regular_ExpressionMatching.csproj", "{54FE5733-F18E-4208-A594-96231661313A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_Replace", "Regular_Replace\Regular_Replace.csproj", "{9D12C649-1116-487C-A5E2-20EEB777622D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5 Regular_Replace", "Regular_Replace\2.5 Regular_Replace.csproj", "{9D12C649-1116-487C-A5E2-20EEB777622D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
