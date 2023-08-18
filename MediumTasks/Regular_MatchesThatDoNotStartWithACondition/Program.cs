@@ -38,6 +38,18 @@ foreach (string dateValue in dates4)
 }
 Console.WriteLine();
 
+//Находит слова с заглавной буквой
+string input5 = "This this word Sentence name Capital";
+string pattern5 = @"\b\p{Lu}\w*\b";
+foreach (Match match in Regex.Matches(input5, pattern5))
+    Console.WriteLine(match.Value);
+
+Console.WriteLine();
+
+//Группа без захвата, которая отбрасывает позиции возврата после совпадения
+string pattern6 = @"\b\p{Lu}(?>\w*)\b";
+foreach (Match match in Regex.Matches(input5, pattern6))
+    Console.WriteLine(match.Value);
 
 Console.ReadLine();
 
