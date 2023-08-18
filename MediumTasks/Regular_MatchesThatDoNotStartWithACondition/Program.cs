@@ -83,7 +83,14 @@ string input8 = "Total Cost: 103.64";
 Console.WriteLine(Regex.Replace(input8, pattern8, replacement8));
 
 
-
+//Удаляем символы, совпавшие с паттерном. И возвращаем массив данных
+string input9 = "1. Eggs 2. Bread 3. Milk 4. Coffee 5. Tea";
+string pattern9 = @"\b\d{1,2}\.\s";
+foreach (string item in Regex.Split(input9, pattern9))
+{
+    if (!String.IsNullOrEmpty(item))
+        Console.WriteLine(item);
+}
 
 Console.ReadLine();
 
