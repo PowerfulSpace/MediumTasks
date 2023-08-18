@@ -7,6 +7,9 @@ string input = "This is the first sentence. Is it the beginning " +
                        "it is a nonsensical paragraph.";
 string pattern = @"(?n)\b\(?((?>\w+),?\s?)+[\.!?]\)?";
 
+//Такой шаблон позволяет,тоже автоматически подавлять захват внутри групп
+//string pattern = @"\b\(?(?n:(?>\w+),?\s?)+[\.!?]\)?";
+
 foreach (Match match in Regex.Matches(input, pattern))
 {
     Console.WriteLine("The match: {0}", match.Value);

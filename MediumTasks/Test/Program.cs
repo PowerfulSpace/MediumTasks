@@ -1,11 +1,10 @@
 ﻿
 
 using System.Text.RegularExpressions;
-
 string input = "This is the first sentence. Is it the beginning " +
-                       "of a literary masterpiece? I think not. Instead, " +
-                       "it is a nonsensical paragraph.";
-string pattern = @"(?n)\b\(?((?>\w+),?\s?)+[\.!?]\)?";
+                      "of a literary masterpiece? I think not. Instead, " +
+                      "it is a nonsensical paragraph.";
+string pattern = @"\b\(?(?n:(?>\w+),?\s?)+[\.!?]\)?";
 
 foreach (Match match in Regex.Matches(input, pattern))
 {
