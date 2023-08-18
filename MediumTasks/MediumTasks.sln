@@ -63,7 +63,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.7 Regular_RaplacingAllMat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.8 Regular_IgnoreCase", "Regular_IgnoreCase\2.8 Regular_IgnoreCase.csproj", "{AC427D6A-0C34-4D1F-9C4F-906E5C464842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_Multiline", "Regular_Multiline\Regular_Multiline.csproj", "{5270CCF1-F5A6-4A73-8074-E23BBEDA6AF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.9 Regular_Multiline_Singleline", "Regular_Multiline\2.9 Regular_Multiline_Singleline.csproj", "{5270CCF1-F5A6-4A73-8074-E23BBEDA6AF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

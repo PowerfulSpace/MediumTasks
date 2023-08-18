@@ -19,6 +19,15 @@ foreach (KeyValuePair<int, string> score in scores)
     Console.WriteLine("{0}: {1}", score.Value, score.Key);
 
 
+//Преобразует текст в одну строку
+string pattern2 = "(?s)^.+";
+string input2 = "This is one line and" + Environment.NewLine + "this is the second.";
+
+foreach (Match match in Regex.Matches(input2, pattern2))
+    Console.WriteLine(Regex.Escape(match.Value));
+
+
+
 Console.ReadLine();
 
 
