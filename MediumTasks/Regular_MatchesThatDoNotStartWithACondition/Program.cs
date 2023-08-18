@@ -74,7 +74,17 @@ foreach (Match match in Regex.Matches(input7, pattern7))
         grpCtr++;
     }
 
+}
 
-    Console.ReadLine();
+//$$ - Знак доллара ($). $& - Вся совпавшая подстрока.
+string pattern8 = @"\b\d+\.\d{2}\b";
+string replacement8 = "$$$&";
+string input8 = "Total Cost: 103.64";
+Console.WriteLine(Regex.Replace(input8, pattern8, replacement8));
+
+
+
+
+Console.ReadLine();
 
 
