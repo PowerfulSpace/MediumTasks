@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6 Regular_CurrentInfo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.7 Regular_RaplacingAllMatches", "Regular_RaplacingAllMatches\2.7 Regular_RaplacingAllMatches.csproj", "{AB350EE7-96A9-49B5-A7A4-CDEC8AAC6376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_IgnoreCase", "Regular_IgnoreCase\Regular_IgnoreCase.csproj", "{AC427D6A-0C34-4D1F-9C4F-906E5C464842}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{AB350EE7-96A9-49B5-A7A4-CDEC8AAC6376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB350EE7-96A9-49B5-A7A4-CDEC8AAC6376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB350EE7-96A9-49B5-A7A4-CDEC8AAC6376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC427D6A-0C34-4D1F-9C4F-906E5C464842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC427D6A-0C34-4D1F-9C4F-906E5C464842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC427D6A-0C34-4D1F-9C4F-906E5C464842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC427D6A-0C34-4D1F-9C4F-906E5C464842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
