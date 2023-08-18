@@ -57,7 +57,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.4 Regular_ExpressionMatch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.5 Regular_Replace", "Regular_Replace\2.5 Regular_Replace.csproj", "{9D12C649-1116-487C-A5E2-20EEB777622D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_CurrentInfo", "Regular_CurrentInfo\Regular_CurrentInfo.csproj", "{D54742A5-EF9C-4EF9-AEE0-7846742597F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6 Regular_CurrentInfo", "Regular_CurrentInfo\2.6 Regular_CurrentInfo.csproj", "{D54742A5-EF9C-4EF9-AEE0-7846742597F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
