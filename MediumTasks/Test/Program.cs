@@ -1,28 +1,12 @@
 ﻿
 using System.Text.RegularExpressions;
 
-string pattern = @"\b(\p{Lu}{2})(\d{2})?(\p{Lu}{2})\b";
-string[] inputs = { "AA22ZZ", "AABB" };
-foreach (string input in inputs)
-{
-    Match match = Regex.Match(input, pattern);
-    if (match.Success)
-    {
-        Console.WriteLine("Match in {0}: {1}", input, match.Value);
-        if (match.Groups.Count > 1)
-        {
-            for (int ctr = 1; ctr <= match.Groups.Count - 1; ctr++)
-            {
-                if (match.Groups[ctr].Success)
-                    Console.WriteLine("Group {0}: {1}",
-                                      ctr, match.Groups[ctr].Value);
-                else
-                    Console.WriteLine("Group {0}: <no match>", ctr);
-            }
-        }
-    }
-    Console.WriteLine();
-}
+string pattern = @"\b(?(\d{2}-)\d{2}-\d{7}|\d{3}-\d{2}-\d{4})\b";
+string input = "01-9999999 020-333333 777-88-9999";
+Console.WriteLine("Matches for {0}:", pattern);
+foreach (Match match in Regex.Matches(input, pattern))
+    Console.WriteLine("   {0} at position {1}", match.Value, match.Index);
+
 
 
 Console.ReadLine();
