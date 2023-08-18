@@ -53,7 +53,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2 Regular_GroupingStructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 Regular_CaptureGropu_Base", "Regular_CaptureGropu_Base\2.3 Regular_CaptureGropu_Base.csproj", "{3BAA4142-4C6A-467C-8D33-1FC9F2B26A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_ExpressionMatching", "Regular_ExpressionMatching\Regular_ExpressionMatching.csproj", "{54FE5733-F18E-4208-A594-96231661313A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4 Regular_ExpressionMatching", "Regular_ExpressionMatching\2.4 Regular_ExpressionMatching.csproj", "{54FE5733-F18E-4208-A594-96231661313A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

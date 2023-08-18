@@ -1,7 +1,7 @@
 ﻿
 using System.Text.RegularExpressions;
 
-string pattern = @"\b(?(\d{2}-)\d{2}-\d{7}|\d{3}-\d{2}-\d{4})\b";
+string pattern = @"\b(?<n2>\d{2}-)?(?(n2)\d{7}|\d{3}-\d{2}-\d{4})\b";
 string input = "01-9999999 020-333333 777-88-9999";
 Console.WriteLine("Matches for {0}:", pattern);
 foreach (Match match in Regex.Matches(input, pattern))
