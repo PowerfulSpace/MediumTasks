@@ -9,7 +9,7 @@ foreach (Match match in Regex.Matches(input, pattern))
     Console.WriteLine("'{0}// found at index {1}.", match.Value, match.Index);
 
 
-//Игнорирование регистра
+//Игнорирование регистра только буквы t, такие буквы he не попадут под возможность не учитывания регистра
 string pattern2 = @"\b(?i:t)he\w*\b";
 string input2 = "The man then told them about that event.";
 foreach (Match match in Regex.Matches(input2, pattern2))

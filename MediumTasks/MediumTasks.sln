@@ -61,7 +61,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6 Regular_CurrentInfo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.7 Regular_RaplacingAllMatches", "Regular_RaplacingAllMatches\2.7 Regular_RaplacingAllMatches.csproj", "{AB350EE7-96A9-49B5-A7A4-CDEC8AAC6376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_IgnoreCase", "Regular_IgnoreCase\Regular_IgnoreCase.csproj", "{AC427D6A-0C34-4D1F-9C4F-906E5C464842}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.8 Regular_IgnoreCase", "Regular_IgnoreCase\2.8 Regular_IgnoreCase.csproj", "{AC427D6A-0C34-4D1F-9C4F-906E5C464842}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
