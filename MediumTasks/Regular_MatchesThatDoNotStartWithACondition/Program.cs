@@ -51,6 +51,30 @@ string pattern6 = @"\b\p{Lu}(?>\w*)\b";
 foreach (Match match in Regex.Matches(input5, pattern6))
     Console.WriteLine(match.Value);
 
-Console.ReadLine();
+//Отключает группу захвата подстрок ?:
+string input7 = "This is one sentence. This is another.";
+string pattern7 = @"\b(?:\w+[;,]?\s?)+[.?!]";
+
+foreach (Match match in Regex.Matches(input7, pattern7))
+{
+    Console.WriteLine("Match: '{0}' at index {1}.",
+                      match.Value, match.Index);
+    int grpCtr = 0;
+    foreach (Group grp in match.Groups)
+    {
+        Console.WriteLine("   Group {0}: '{1}' at index {2}.",
+                          grpCtr, grp.Value, grp.Index);
+        int capCtr = 0;
+        foreach (Capture cap in grp.Captures)
+        {
+            Console.WriteLine("      Capture {0}: '{1}' at {2}.",
+                              capCtr, cap.Value, cap.Index);
+            capCtr++;
+        }
+        grpCtr++;
+    }
+
+
+    Console.ReadLine();
 
 
