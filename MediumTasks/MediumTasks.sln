@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 Regular_CaptureGropu_Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4 Regular_ExpressionMatching", "Regular_ExpressionMatching\2.4 Regular_ExpressionMatching.csproj", "{54FE5733-F18E-4208-A594-96231661313A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_Replace", "Regular_Replace\Regular_Replace.csproj", "{9D12C649-1116-487C-A5E2-20EEB777622D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{54FE5733-F18E-4208-A594-96231661313A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54FE5733-F18E-4208-A594-96231661313A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54FE5733-F18E-4208-A594-96231661313A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D12C649-1116-487C-A5E2-20EEB777622D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D12C649-1116-487C-A5E2-20EEB777622D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D12C649-1116-487C-A5E2-20EEB777622D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D12C649-1116-487C-A5E2-20EEB777622D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
