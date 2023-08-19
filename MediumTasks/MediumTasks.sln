@@ -67,7 +67,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.9 Regular_Multiline_Singl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.0 Regular_CombiningCaptureGroups", "Regular_CombiningCaptureGroups\3.0 Regular_CombiningCaptureGroups.csproj", "{6ED98B5C-A81A-475A-87D6-9B0E8430CFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular_HREF scan", "Regular_HREF scan\Regular_HREF scan.csproj", "{F89BFCD9-EDCE-42DD-BBAF-1FDF71E84380}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1 Regular_HREF scan", "Regular_HREF scan\3.1 Regular_HREF scan.csproj", "{F89BFCD9-EDCE-42DD-BBAF-1FDF71E84380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

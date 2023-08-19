@@ -3,7 +3,14 @@
 using System.Text.RegularExpressions;
 
 
-DumpHRefs("https://translate.google.com/?hl=ru&sl=en&tl=ru&text=Thread-safe%20collections&op=translate");
+string inputString = "My favorite web sites include:</P>" +
+                         "<A HREF=\"https://learn.microsoft.com/en-us/dotnet/\">" +
+                         ".NET Documentation</A></P>" +
+                         "<A HREF=\"http://www.microsoft.com\">" +
+                         "Microsoft Corporation Home Page</A></P>" +
+                         "<A HREF=\"https://devblogs.microsoft.com/dotnet/\">" +
+                         ".NET Blog</A></P>";
+DumpHRefs(inputString);
 Console.ReadLine();
 
 
