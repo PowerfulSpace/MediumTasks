@@ -110,6 +110,14 @@ Match m = r.Match("Section1:119900");
 Console.WriteLine(m.Groups["name"].Value);
 Console.WriteLine(m.Groups["value"].Value);
 
+//Если следующий символ не является знаком припинания, тогда ок
+string pattern11 = @"\b[A-Z]+\b(?=\P{P})";
+string input11 = "If so, what comes next?";
+foreach (Match match in Regex.Matches(input11, pattern11, RegexOptions.IgnoreCase))
+    Console.WriteLine(match.Value);
+
+
+
 Console.ReadLine();
 
 
