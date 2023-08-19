@@ -3,7 +3,7 @@
 using System.Text.RegularExpressions;
 
 
-DumpHRefs("https://translate.google.com/?hl=ru&sl=en&tl=ru&text=Thread-safe%20collections&op=translate");
+DumpHRefs("<p><a href=\"../../example/knob.html\">Относительная ссылка</a></p>");
 Console.ReadLine();
 
 
