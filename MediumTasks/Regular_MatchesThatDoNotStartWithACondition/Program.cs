@@ -92,6 +92,18 @@ foreach (string item in Regex.Split(input9, pattern9))
         Console.WriteLine(item);
 }
 
+//подставляем сиволы доллора к найденному патерну
+string input10 = "16.32\n194.03\n1,903,672.08";
+string pattern10 = @"(\d+\.?\,?)+\d+";
+
+Regex regex = new Regex(pattern10);
+var result = regex.Matches(input10);
+
+foreach (Match item in result)
+{
+    Console.WriteLine(item.Result("$$ $&"));
+}
+
 Console.ReadLine();
 
 
