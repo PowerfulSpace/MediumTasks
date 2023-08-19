@@ -2,10 +2,11 @@
 
 using System.Text.RegularExpressions;
 
-string pattern = @"\b[A-Z]+\b(?=\P{P})";
-string input = "If so, what comes next?";
-foreach (Match match in Regex.Matches(input, pattern, RegexOptions.IgnoreCase))
-    Console.WriteLine(match.Value);
+string input = "needing a reed";
+string pattern = @"e{2}\w\b";
+foreach (Match match in Regex.Matches(input, pattern))
+    Console.WriteLine("{0} found at position {1}",
+                      match.Value, match.Index);
 
 Console.ReadLine();
 

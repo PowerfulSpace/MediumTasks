@@ -111,12 +111,18 @@ Console.WriteLine(m.Groups["name"].Value);
 Console.WriteLine(m.Groups["value"].Value);
 
 //Если следующий символ не является знаком припинания, тогда ок
+//соответствует любым символам, которые \p{P} не соответствуют
 string pattern11 = @"\b[A-Z]+\b(?=\P{P})";
 string input11 = "If so, what comes next?";
 foreach (Match match in Regex.Matches(input11, pattern11, RegexOptions.IgnoreCase))
     Console.WriteLine(match.Value);
 
 
+//Выбирает строки которые не начинаются с non
+string pattern12 = @"\b(?!non)\w+\b";
+string input12 = "Nonsense is not always non-functional.";
+foreach (Match match in Regex.Matches(input12, pattern12, RegexOptions.IgnoreCase))
+    Console.WriteLine(match.Value);
 
 Console.ReadLine();
 
