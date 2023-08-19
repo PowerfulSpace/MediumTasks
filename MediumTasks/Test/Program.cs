@@ -2,13 +2,27 @@
 
 using System.Text.RegularExpressions;
 
-string url = "http://www.contoso.com:8080/letters/readme.html";
 
-Regex r = new Regex(@"^(?<proto>\w+)://[^/]+?(?<port>:\d+)?/",
-                    RegexOptions.None, TimeSpan.FromMilliseconds(150));
-Match m = r.Match(url);
-if (m.Success)
-    Console.WriteLine(m.Result("${proto}${port}"));
+string a = "dsa,d";
+Example.CleanInput(a);
 
 Console.ReadLine();
 
+static public class Example
+{
+    static public string CleanInput(string strIn)
+    {
+        // Replace invalid characters with empty strings.
+        try
+        {
+            return Regex.Replace(strIn, @"[^\w\.@-]", "",
+                                 RegexOptions.None, TimeSpan.FromSeconds(1.5));
+        }
+        // If we timeout when replacing invalid characters,
+        // we should return Empty.
+        catch (RegexMatchTimeoutException)
+        {
+            return String.Empty;
+        }
+    }
+}
