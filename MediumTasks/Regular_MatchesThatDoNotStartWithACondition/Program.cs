@@ -104,6 +104,12 @@ foreach (Match item in result)
     Console.WriteLine(item.Result("$$ $&"));
 }
 
+//Именнованная группа захвата. И обращение по ключу
+var r = new Regex(@"^(?<name>\w+):(?<value>\w+)");
+Match m = r.Match("Section1:119900");
+Console.WriteLine(m.Groups["name"].Value);
+Console.WriteLine(m.Groups["value"].Value);
+
 Console.ReadLine();
 
 

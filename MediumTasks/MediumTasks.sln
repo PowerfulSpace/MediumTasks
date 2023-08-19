@@ -47,7 +47,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.9 Regular_SearchForTwoIde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.0 Regular_SelectionInNotOnTheWholePattern", "Regular_SelectionInNotOnTheWholePattern\2.0 Regular_SelectionInNotOnTheWholePattern.csproj", "{7F9FC97D-F8CF-4EDE-9DE4-AAB70C8BA99C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1 Regular_MatchesThatDoNotStartWithACondition", "Regular_MatchesThatDoNotStartWithACondition\2.1 Regular_MatchesThatDoNotStartWithACondition.csproj", "{BD4C431D-5850-47B7-8B20-DEC86A5B3765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1 Regular_FewExamples", "Regular_MatchesThatDoNotStartWithACondition\2.1 Regular_FewExamples.csproj", "{BD4C431D-5850-47B7-8B20-DEC86A5B3765}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2 Regular_GroupingStructures", "Regular_GroupingStructures\2.2 Regular_GroupingStructures.csproj", "{C48A2A70-FF39-4AD2-8F92-E06A9BA941B9}"
 EndProject
@@ -63,9 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.7 Regular_RaplacingAllMat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.8 Regular_IgnoreCase", "Regular_IgnoreCase\2.8 Regular_IgnoreCase.csproj", "{AC427D6A-0C34-4D1F-9C4F-906E5C464842}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.9 Regular_Multiline_Singleline", "Regular_Multiline\2.9 Regular_Multiline_Singleline.csproj", "{5270CCF1-F5A6-4A73-8074-E23BBEDA6AF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.9 Regular_Multiline_Singleline", "Regular_Multiline\2.9 Regular_Multiline_Singleline.csproj", "{5270CCF1-F5A6-4A73-8074-E23BBEDA6AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.0 Regular_CombiningCaptureGroups", "Regular_CombiningCaptureGroups\3.0 Regular_CombiningCaptureGroups.csproj", "{6ED98B5C-A81A-475A-87D6-9B0E8430CFC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.0 Regular_CombiningCaptureGroups", "Regular_CombiningCaptureGroups\3.0 Regular_CombiningCaptureGroups.csproj", "{6ED98B5C-A81A-475A-87D6-9B0E8430CFC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
